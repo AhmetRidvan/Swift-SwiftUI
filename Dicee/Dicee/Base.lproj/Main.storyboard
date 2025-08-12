@@ -41,6 +41,9 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="45"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="hi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5my-Ti-WCV"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="HW0-Jd-K64">
                                 <rect key="frame" x="257" y="366" width="120" height="120"/>

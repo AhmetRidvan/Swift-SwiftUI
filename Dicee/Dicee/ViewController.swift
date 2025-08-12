@@ -17,8 +17,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         imageViewOne.image = #imageLiteral(resourceName: "DiceSix")  //#imageLiteral()
-        imageViewOne.alpha = 0.5
+       // imageViewOne.alpha = 0.5
         imageViewTwo.image = #imageLiteral(resourceName: "DiceTwo")
     }
+   
 
+    
+    @IBAction func hi(_ sender: Any) {
+        imageViewOne.image = #imageLiteral(resourceName: "DiceFour")  //#imageLiteral()
+       // imageViewOne.alpha = 0.5
+        imageViewTwo.image = #imageLiteral(resourceName: "DiceFour")
+    }
+    
 }
