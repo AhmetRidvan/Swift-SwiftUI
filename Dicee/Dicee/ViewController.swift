@@ -15,18 +15,20 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        imageViewOne.image = #imageLiteral(resourceName: "DiceSix")  //#imageLiteral()
-       // imageViewOne.alpha = 0.5
-        imageViewTwo.image = #imageLiteral(resourceName: "DiceTwo")
+       
     }
    
 
     
     @IBAction func hi(_ sender: Any) {
-        imageViewOne.image = #imageLiteral(resourceName: "DiceFour")  //#imageLiteral()
-       // imageViewOne.alpha = 0.5
-        imageViewTwo.image = #imageLiteral(resourceName: "DiceFour")
+        imageViewOne.image = [
+            #imageLiteral(resourceName: "DiceOne"),
+            #imageLiteral(resourceName: "DiceTwo"),
+            #imageLiteral(resourceName: "DiceThree"),
+            #imageLiteral(resourceName: "DiceFour"),
+            #imageLiteral(resourceName: "DiceFive"),
+            #imageLiteral(resourceName: "DiceSix") ,
+        ].randomElement()
     }
     
 }

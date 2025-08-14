@@ -1,10 +1,4 @@
 import UIKit
 
-var greeting = "Hello, playground"
-
-
-var hi = 12123
-
-print(hi)
-//print("Hi")
+print("The result of 10+6 = \(10+6)")
 
