@@ -14,45 +14,32 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var imageViewTwo: UIImageView!
     
-    var number = 1
-    var number2 = 5
+  
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-       
-    }
-   
 
     
     @IBAction func hi(_ sender: Any) {
-       
-        imageViewOne.image = [
+       //let constant but var not constant
+        let myArray = [
             #imageLiteral(resourceName: "DiceOne"),
             #imageLiteral(resourceName: "DiceTwo"),
             #imageLiteral(resourceName: "DiceThree"),
             #imageLiteral(resourceName: "DiceFour"),
             #imageLiteral(resourceName: "DiceFive"),
             #imageLiteral(resourceName: "DiceSix"),
-        ][number]
+        ]
+        
+        //0,1,2,3,4,5
+        imageViewOne.image = myArray[Int.random(in: 0...5)]
 
-        imageViewTwo.image = [
-            #imageLiteral(resourceName: "DiceOne"),
-            #imageLiteral(resourceName: "DiceTwo"),
-            #imageLiteral(resourceName: "DiceThree"),
-            #imageLiteral(resourceName: "DiceFour"),
-            #imageLiteral(resourceName: "DiceFive"),
-            #imageLiteral(resourceName: "DiceSix"),
-        ][number2]
+        imageViewTwo.image = myArray[Int.random(in: 0...5)]
         
         
         
-        if number < 5{
-           number += 1
-        }
-        if number2 > 0{
-            number2 -= 1
-        }
+        
+        
+        
+        
         
     }
     
