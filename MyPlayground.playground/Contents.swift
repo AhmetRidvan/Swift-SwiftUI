@@ -1,10 +1,11 @@
-let numbers = [45, 73, 195, 53]
-   
-   var result1 = numbers[0] * numbers[1]
-   var result2 = numbers[1] * numbers[2]
-   var result3 = numbers[2] * numbers[3]
-   //Write your code here
-   let computedNumbers = [result1,result2,result3]
-let ex = Int.random(in: 1...3)
-    print(ex)
-   print(computedNumbers)
+let alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+
+var str1 = alphabet.randomElement()!
+var str2 = alphabet.randomElement()!
+var str3 = alphabet.randomElement()!
+var str4 = alphabet.randomElement()!
+var str5 = alphabet.randomElement()!
+var str6 = alphabet.randomElement()!
+let password = str1+str2+str3+str4+str5+str6
+
+print(password)
