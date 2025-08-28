@@ -20,25 +20,33 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppBreweryBackground" translatesAutoresizingMaskIntoConstraints="NO" id="fEb-pf-Q9X">
                                 <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppBreweryLogo" translatesAutoresizingMaskIntoConstraints="NO" id="w9l-iD-rBY">
-                                <rect key="frame" x="106" y="407.66666666666669" width="190" height="59"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppBreweryLogo" translatesAutoresizingMaskIntoConstraints="NO" id="w9l-iD-rBY" userLabel="AppBreweryLogo">
+                                <rect key="frame" x="106" y="407.66666666666669" width="190" height="58.999999999999943"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swift" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCq-Hk-reO">
+                                <rect key="frame" x="147" y="496.66666666666674" width="108" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="fEb-pf-Q9X" secondAttribute="bottom" id="3oh-AD-kiY"/>
-                            <constraint firstItem="fEb-pf-Q9X" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="5ve-8j-Xep"/>
-                            <constraint firstItem="fEb-pf-Q9X" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="GKb-Iq-oqE"/>
-                            <constraint firstItem="w9l-iD-rBY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ink-zc-Jz7"/>
-                            <constraint firstItem="w9l-iD-rBY" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="R3B-R5-bMp"/>
-                            <constraint firstItem="fEb-pf-Q9X" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="suq-mM-9cT"/>
+                            <constraint firstItem="w9l-iD-rBY" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="2gj-xm-isb"/>
+                            <constraint firstItem="fEb-pf-Q9X" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="Rde-a4-R6O"/>
+                            <constraint firstItem="OCq-Hk-reO" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Rpb-fW-dE9"/>
+                            <constraint firstItem="w9l-iD-rBY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="VaA-iv-PR7"/>
+                            <constraint firstItem="fEb-pf-Q9X" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="cTB-b5-sC0"/>
+                            <constraint firstItem="OCq-Hk-reO" firstAttribute="top" secondItem="w9l-iD-rBY" secondAttribute="bottom" constant="30" id="iOH-Bm-wDV"/>
+                            <constraint firstAttribute="bottom" secondItem="fEb-pf-Q9X" secondAttribute="bottom" id="jEl-F8-uzW"/>
+                            <constraint firstItem="fEb-pf-Q9X" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="oEO-8J-RBS"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="48.75" y="371.83098591549299"/>
+            <point key="canvasLocation" x="47.761194029850742" y="371.39588100686495"/>
         </scene>
     </scenes>
     <resources>
@@ -46,6 +54,9 @@
         <image name="AppBreweryLogo" width="190" height="59"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
