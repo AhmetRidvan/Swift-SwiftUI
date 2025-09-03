@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="landscape" appearance="light"/>
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,17 +13,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayoutEx" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="rj2-F8-muY">
-                                <rect key="frame" x="59" y="59" width="734" height="279"/>
+                                <rect key="frame" x="0.0" y="118" width="393" height="666"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="638-8J-HdD">
-                                        <rect key="frame" x="227" y="0.0" width="280" height="92.333333333333329"/>
+                                        <rect key="frame" x="56.666666666666657" y="0.0" width="280" height="221.33333333333334"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2304.w058.n003.388B.p15.388" translatesAutoresizingMaskIntoConstraints="NO" id="HLW-zj-StO">
-                                                <rect key="frame" x="-10" y="-53.666666666666664" width="300" height="200"/>
+                                                <rect key="frame" x="-10" y="10.666666666666657" width="300" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="300" id="Lrv-pC-Q2O"/>
                                                     <constraint firstAttribute="height" constant="200" id="vIS-3V-1Zl"/>
@@ -37,10 +37,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lYo-cA-gtN">
-                                        <rect key="frame" x="227" y="93.333333333333343" width="280" height="92.333333333333343"/>
+                                        <rect key="frame" x="56.666666666666657" y="222.33333333333331" width="280" height="221.33333333333331"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="amin-zabardast-Eaz3rz5bf5M-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="nn5-IT-hXR">
-                                                <rect key="frame" x="40" y="-3.6666666666666856" width="200" height="100"/>
+                                                <rect key="frame" x="40" y="60.666666666666686" width="200" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="100" id="aBO-nh-NwW"/>
                                                     <constraint firstAttribute="width" constant="200" id="jHj-gV-BFH"/>
@@ -54,25 +54,36 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TGM-5g-7Rp">
-                                        <rect key="frame" x="227" y="186.66666666666666" width="280" height="92.333333333333343"/>
+                                        <rect key="frame" x="56.666666666666657" y="444.66666666666657" width="280" height="221.33333333333331"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Star winner rating review icon sign or symbol 3d background illustration" translatesAutoresizingMaskIntoConstraints="NO" id="Wcf-kZ-y2m">
-                                                <rect key="frame" x="19.333333333333343" y="46.333333333333485" width="240.00000000000003" height="128"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="240" id="D5Q-Fr-Lpt"/>
-                                                    <constraint firstAttribute="height" constant="128" id="fA7-48-Aio"/>
-                                                </constraints>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hi Ahmet Whats up!asdadasdasd" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbm-uZ-5AI">
-                                                <rect key="frame" x="-63" y="93" width="259" height="34"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBrownColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pjz-lE-ouG">
+                                                <rect key="frame" x="-80.333333333333343" y="46.666666666666742" width="440.33333333333337" height="128"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Star winner rating review icon sign or symbol 3d background illustration" translatesAutoresizingMaskIntoConstraints="NO" id="Wcf-kZ-y2m">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240.33333333333334" height="128"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="240" id="D5Q-Fr-Lpt"/>
+                                                            <constraint firstAttribute="height" constant="128" id="fA7-48-Aio"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fghfghfghghhdfgskjtrweoterwıoterwtretert" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbm-uZ-5AI">
+                                                        <rect key="frame" x="240.33333333333331" y="47.333333333333258" width="200" height="33.666666666666657"/>
+                                                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="200" id="lP9-aF-8DI"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="pjz-lE-ouG" firstAttribute="centerX" secondItem="TGM-5g-7Rp" secondAttribute="centerX" id="Res-UP-Otu"/>
+                                            <constraint firstItem="pjz-lE-ouG" firstAttribute="centerY" secondItem="TGM-5g-7Rp" secondAttribute="centerY" id="SEB-Ti-fO3"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                             </stackView>
@@ -89,7 +100,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="104.22535211267606" y="-35.877862595419849"/>
+            <point key="canvasLocation" x="103.05343511450381" y="-35.91549295774648"/>
         </scene>
     </scenes>
     <resources>
